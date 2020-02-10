@@ -15,13 +15,15 @@ import Stylesheet from './components/Stylesheets';
 import Inline from './components/Inline';
 import './appStyles.css';
 import styles from './appStyles.module.css';
+import Form from './components/Form';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1 className="error">Error</h1>
-        <h1 className={styles.sucess}>Sucess</h1>
+        <Form></Form>
+        {/* <h1 className="error">Error</h1> */}
+        {/* <h1 className={styles.sucess}>Sucess</h1> */}
         {/* <Inline></Inline> */}
         {/* <Stylesheet primary={true}></Stylesheet> */}
         {/* <NameList></NameList> */}
