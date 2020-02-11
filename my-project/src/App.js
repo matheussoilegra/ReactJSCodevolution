@@ -17,12 +17,16 @@ import './appStyles.css';
 import styles from './appStyles.module.css';
 import Form from './components/Form';
 import LifecycleA from './components/LifecycleA';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <LifecycleA></LifecycleA>
+        <Table></Table>
+        {/* <FragmentDemo></FragmentDemo> */}
+        {/* <LifecycleA></LifecycleA> */}
         {/* <Form></Form> */}
         {/* <h1 className="error">Error</h1> */}
         {/* <h1 className={styles.sucess}>Sucess</h1> */}
